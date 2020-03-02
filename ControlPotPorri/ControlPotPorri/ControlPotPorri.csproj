@@ -72,6 +72,8 @@
     <Content Include="Imagens\cadastro.jpg" />
     <Content Include="Imagens\icones.jpg" />
     <Content Include="UseImageControls.aspx" />
+    <Content Include="UseMultiView.aspx" />
+    <Content Include="UseTreeView.aspx" />
     <Content Include="ValidateMe.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -83,6 +85,20 @@
     </Compile>
     <Compile Include="UseImageControls.aspx.designer.cs">
       <DependentUpon>UseImageControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UseMultiView.aspx.cs">
+      <DependentUpon>UseMultiView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UseMultiView.aspx.designer.cs">
+      <DependentUpon>UseMultiView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UseTreeView.aspx.cs">
+      <DependentUpon>UseTreeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UseTreeView.aspx.designer.cs">
+      <DependentUpon>UseTreeView.aspx</DependentUpon>
     </Compile>
     <Compile Include="ValidateMe.aspx.cs">
       <DependentUpon>ValidateMe.aspx</DependentUpon>

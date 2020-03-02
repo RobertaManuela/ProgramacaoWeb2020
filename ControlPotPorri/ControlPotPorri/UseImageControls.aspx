@@ -25,10 +25,14 @@
             <hr />
             icones
             <br />
-            <asp:ImageMap ID="ImageMap1" runat="server" ImageUrl="~/Imagens/icones.jpg">
-                <asp:CircleHotSpot NavigateUrl="https://www.letras.mus.br/bangtan-boys/discografia/map-of-the-soul-7-2020/" Radius="100" X="200" Y="210" />
+            <asp:ImageMap ID="ImageMap1" runat="server" ImageUrl="~/Imagens/icones.jpg" AlternateText="MOTS7">
+                <asp:CircleHotSpot NavigateUrl="https://www.letras.mus.br/bangtan-boys/discografia/map-of-the-soul-7-2020/" Radius="80" X="100" Y="100" />
             </asp:ImageMap>
         </div>
     </form>
 </body>
 </html>
+
+<!--TREEVIEW = MOSTRA INFORMAÇÕES EM FORMA DE ARVORE
+    ImageMap = Adiciona um caminho para web em cima de um local na imagem, após selecionar suas coordenadas
+    SelectedNodeChanged = cria um método para TreeView-->
