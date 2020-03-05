@@ -30,5 +30,5 @@ namespace ControlPotPorri
             { MultiView1.ActiveViewIndex += 1; }
         }
     }
-    }
+    
 }

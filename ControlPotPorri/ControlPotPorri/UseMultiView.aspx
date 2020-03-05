@@ -11,46 +11,44 @@
     <form id="form1" runat="server">
         <div>
             <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
-                 <asp:View ID="View1" runat="server">
+            <asp:View ID="View1" runat="server">
             Cadastro - Dados Pessoais <br /> <hr />
             <table style="width: 100%;">
-                <tr>
-                    <td>Nome</td>
-                    <td>Endereço</td>
-                    <td>Aniversário</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-            </table>
+              
+            <tr>
+                <td>Nome</td>
+
+            </tr>
+
+            <tr>
+                <td>Endereço</td>
+
+            </tr>
+
+            <tr>
+                <td>Aniversário</td>
+            </tr>
+ 
+          </table>
           </asp:View>
 
-            <asp:View ID="View2" runat="server">>
+            <asp:View ID="View2" runat="server">
             Cadastro - Dados Escolares <br /> <hr />
 
             <table style="width: 100%;">
-                <tr>
-                    <td>Nome da Escola</td>
-                    <td>Curso</td>
-                    <td>Nível</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
+
+            <tr>
+                <td>Nome da Escola</td>
+            </tr>
+
+            <tr>
+                <td>Curso</td>
+            </tr>
+
+            <tr>
+                <td>Nível</td>
+            </tr>
+
             </table>
           </asp:View>
 
@@ -58,27 +56,23 @@
             Cadastro - Filiação  <br /> <hr />
 
             <table style="width: 100%;">
-                <tr>
-                    <td>Nome do pai</td>
-                    <td>Nome da mãe</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
+              <tr>
+                <td>Nome do pai</td>
+
+            </tr>
+
+            <tr>
+                <td>Nome da mãe</td>
+
+            </tr>
+
             </table>
             </asp:View>
            </asp:MultiView>
         </div>
-        <asp:Button ID="Próximo" runat="server" Text="Próximo" OnClick="Próximo_Click" />
+
         <asp:Button ID="Anterior" runat="server" Text="Anterior" OnClick="Anterior_Click" />
+        <asp:Button ID="Próximo" runat="server" Text="Próximo" OnClick="Próximo_Click" />
     </form>
 </body>
 </html>
