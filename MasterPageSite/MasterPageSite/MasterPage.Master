@@ -9,7 +9,7 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body style="background-color: #6699FF; font-family: Cambria; color: #FFFFFF">
+<body style="background-color: #007CB9; font-family: Cambria; color: #FFFFFF">
     <form id="form1" runat="server">
         <div>
             <table>
